@@ -1,0 +1,38 @@
+h1, h2, b, p {
+    font-family: "Optima", sans-serif;
+}
+
+body {
+ background-color :  #a6a15e;
+}
+
+h1 {
+	color: #33658a;
+	--background-color: white;
+	font-size: 40px;
+}
+
+h2 {
+	color: #610345;
+	--background-color: white;
+	font-size: 30px;
+}
+
+b{
+	color: #335145;
+}
+
+r{
+	color: #CF5C36;
+}
+
+img 
+{
+	width: 200px;
+	height: 280px;
+}
+
+#tabla{
+	border: black;
+	border-width: 5px;
+}

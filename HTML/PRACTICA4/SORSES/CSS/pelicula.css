@@ -1,0 +1,30 @@
+
+body {
+ background-color : #a6a15e;
+}
+
+h1 {
+	color: #33658a;
+	--background-color: white;
+	font-size: 40px;
+}
+
+h2 {
+	color: #610345;
+	--background-color: white;
+	font-size: 30px;
+}
+
+b{
+	color: #335145;
+}
+
+r{
+	color: #CF5C36;
+}
+
+img 
+{
+	width: 200px;
+	height: 280px;
+}

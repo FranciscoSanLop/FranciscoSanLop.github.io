@@ -1,0 +1,30 @@
+
+body {
+ background-color : #FFCC66;
+}
+
+h1 {
+	color: rgb(167, 167, 216);
+	--background-color: white;
+	font-size: 40px;
+}
+
+h2 {
+	color: rgb(163, 163, 202);
+	--background-color: white;
+	font-size: 30px;
+}
+
+b{
+	color: rgb(105,105,105);
+}
+
+r{
+	color: rgb(184, 4, 4);
+}
+
+img 
+{
+	width: 200px;
+	height: 280px;
+}

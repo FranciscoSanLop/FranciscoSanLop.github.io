@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Mi primera página web</title>
+		<link rel="stylesheet" type= "text/css" ref="SORSES/CSS/01.css">	
+		<!-- 
+		enlazar archivos css
+		enlazar archivos js
+
+		añadir fuentes externas
+		metadatos (keywords, descriptions, robots, author, owner)
+
+		 -->
+	</head>
+	<body>
+		<header>
+            <hgroup style="text-align: center;color: blue;">
+                <h1>Mis recetas preferidas</h1>
+                <h3>Un viaje por la gastronomía andaluza</h3>
+            </hgroup>
+			
+            <h4 style="text-align: center;color: grey;">Realizado por Francisco Sánchez</h4>
+			<nav>
+				<ul>Novedades
+					<li>
+                        <a href="https://www.elmueble.com/recetas/recetas-navidad-para-preparar-dia-anterior_46292">Recetas Navideñas</a>
+                    </li>
+					<li>
+                        <a target="https://www.micasarevista.com/recetas-trucos-cocina/g111533/recetas-de-miedo-para-halloween/">Recetas Halloween</a>
+                    </li>
+					
+				</ul>
+                <ol>Las mejores recetas de mi abuela
+                    <li>Tarta de queso</li>
+					<figure>
+						<figcaption>
+							¿Qué te gusta más la tarta de queso o la de la abuela?
+						</figcaption>
+						<img src="SORSES/IMAGENES/TARTADEQUESO.jpg" alt="Tarta de queso">
+					</figure>
+					<audio src="SORSES/AUDIOS/felizcumple.mp3" type="audio/mp3" controls="controls"></audio>
+                    <li>Tarta de la abuela</li>
+						<figure>
+							<figcaption>
+								¿Qué te gusta más la tarta de queso o la de la abuela?
+							</figcaption>
+							<img src="SORSES/IMAGENES/tartadelaabuela.jpg" alt="tarta de la abuela">
+						</figure>
+						<video src="SORSES/VIDEOS/videofelizcum.mp4" type="video/mp4" controls="controls"></video>
+						<p> ¿Quieres ver un video de como hacer la tarta de la abuela?</p>
+						<iframe width="798" height="449" src="https://www.youtube.com/embed/efSLH0Qa6L0" title="Tarta de galletas y chocolate ¡La famosa tarta de la abuela!" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </ol>
+                <ul>Otros menús
+                    <li>
+                        <a href="https://www.directoalpaladar.com/recetas-de-aperitivos/53-aperitivos-entrantes-ligeros-deliciosos-para-no-arruinar-apetito-antes-plato-principal">Entrantes ligeros</a>
+                    </li>
+                    <li>
+                        <a href="ensaladas.html">Ensaladas de pasta</a>
+                    </li>
+                </ul>
+                
+			</nav>
+		</header>
+		<section>
+			<article class="articulo">
+				<span>¡¡Siempre he querido probar las recetas de mi abuela!!</span>
+				<p>Pero nunca he tenido la oportunidad de uqe me de las cantidades exactas de su receta porque no se acordaba
+					<strong>los roscos de Semana Santa</strong> estaban super buenos, pero no me enseñó como los hacía 
+				</p>
+				<p>
+					Recuerdo que les salían buennísimos y los enviaba a todos los primos de fuera de las cajas de cartón donde ponñia
+					en una etiqueta <em> Roscos de la abuela </em>
+				</p>
+				<p> Mi abuela era la <em><strong> la superabuela </strong></em></p>
+			</article>
+			<article>
+				<div id="panel_derecha">
+					<P>Dicen que cocinar no solo es entretenimiento sino también relaja, reduces el estrés y desarrollas la creatividad con tus platos.</P>
+				</div>
+			</article>
+			<article class="articulo">
+				<p>Con la comida también desarrollas la habilidad social. Seguro que alguna vez has comido con personas que no conoces de nada. ¿Cómo te fue?</p>
+			</article>
+		</section>
+		<div id="formulario"> Formulario de contacto.
+			<form id='form' name='form' method='post' action='contactar.php'>
+			<span>Si quieres informarte de alguna receta en especial, envia un mensaje a mi contacto
+			indicando tu nombre y tu correo. </span>
+			<p> Introduce tu nombre: </p>
+			<input id='nombre' name='nombre' type='text' placeholder=' ' onfocus="if(this.placeholder == '')this.placeholder = 'Introduce tu nombre:'" />
+			<br>
+			<p> Introduce tu email: </p>
+			<input id='email' name='email' type='text' placeholder=' ' onfocus="if(this.placeholder == '')this.placeholder = 'Introduce tu email'" />
+			<br>
+			<input type='submit' name='botonEnviar' id='button' value="Enviar" />
+			</form>
+			</div>
+		<footer id="ejemplo">
+			<br><br><br><br><br><br><br><br><br>
+			<br><br><br><br><br><br><br><br><br>
+			<br><br><br><br><br><br><br><br><br>
+			<p>Entrantes ligeros</p>
+			<p>Estamos en el pie de página. Con # nos vamos a una posición determinada de la página</p>			
+		</footer>
+
+	</body>
+</html>
